@@ -1,6 +1,6 @@
-import java.util.Scanner;
-public class learn2 {
-    public static void main(String[] args) {
+//import java.util.Scanner;
+//public class learn2 {
+   // public static void main(String[] args) {
        /* 7- Scanner sc = new Scanner (System.in);
         System.out.println("enter a nno. to check");
         int num = sc.nextInt();

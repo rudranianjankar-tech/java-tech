@@ -2,6 +2,7 @@
 class Student1{
     private int age;
     private String name;
+    static String college="abc clg";
 
     //constructor
 
@@ -37,6 +38,16 @@ class Student1{
         System.out.println(this.name + " is studying");
     }
 }
+
+class Teacher extends Student1{
+    Teacher(String name, int age) {
+        super(name, age);  // calling parent constructor
+    }
+    void teach(){
+        System.out.println("teaching");
+    }
+
+}
 // compile time polymorphism - method overloading
 class maths{
     int add(int a,int b){
@@ -60,6 +71,12 @@ public class learn5 {
         s2.setname("riya");
         s2.setage(19);
         s2.study();
+
+        System.out.println(s1.college);
+
+        Teacher T = new Teacher("arya",54);
+        T.study();
+        T.teach();
 
         System.out.println(s1.getname());
 
