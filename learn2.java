@@ -24,7 +24,7 @@ public class learn2 {
         }*/
 
 
-            Scanner sc = new Scanner (System.in);
+           /* Scanner sc = new Scanner (System.in);
             System.out.println("enter a no.");
             int num = sc.nextInt();
            // int rev=0;
@@ -50,7 +50,7 @@ public class learn2 {
                 System.out.println("its not");
             }*/
 
-                int org = num;
+                /*int org = num;
                 int sum = 0;
 
                 while(num!=0){
@@ -64,11 +64,5 @@ public class learn2 {
                     System.out.println("armstrong");
                 }else{
                     System.out.println("no");
-                }
-
-
-
-
-    }
-    
-}
+                }*/
+            
